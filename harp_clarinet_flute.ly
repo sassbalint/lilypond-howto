@@ -1,7 +1,5 @@
 
-% "oktatópélda" arra,
-% hogy lehet kezelni azt, ha egy transzponáló hangszerünk,
-% esetünkben egy B-klarinét
+% hogy lehet kezelni azt, ha van egy transzponáló hangszerünk, esetünkben egy B-klarinét
 
 \version "2.18.2"
 
