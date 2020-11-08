@@ -62,10 +62,10 @@
   >>
 
   \new Staff <<
-    \new Voice \relative c' {
+    \new Voice {
       \set Staff.instrumentName = #"Clarinet"
       \set midiInstrument = #"clarinet"
-      \clef bass
+      \clef treble
 
 % na itt a nagy transzponálás!
 % mivel a B-klarinétünk van, ami 1 hanggal lejjebb szól,
@@ -78,12 +78,14 @@
 \transposition bes
 
       \key es \major
+      \relative c'' {
 
-      r4. r r
-      g16. as32 g8 es
-      g16. as32 g8 es
-      g16. as32 g8 c'
-      bes4 as8
+        r4. r r
+        g16. as32 g8 es
+        g16. as32 g8 es
+        g16. as32 g8 c
+        bes4 as8
+      }
 }
 
     }

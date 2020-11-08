@@ -5,9 +5,9 @@ all: info
 info:
 	@echo "make F=<fájlnév> pdf-mp3"
 
-pdf-mp3: pdf midi2mp3
+pdf-mp3: pdf-midi midi2mp3
 
-pdf:
+pdf-midi:
 	lilypond $F.ly
 
 view:
